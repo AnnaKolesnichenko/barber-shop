@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barber Shop</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap">
+
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header>
@@ -12,28 +15,23 @@
             <a href="">
                 <img src="./img/Logo.svg" alt="logo">
             </a>
-            <ul>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Services and Prices</a></li>
-                <li><a href="">Barbers</a></li>
-                <li><a href="">Contacts</a></li>
+            <ul class="navigation">
+                <li class="navigation-item"><a href="">About</a></li>
+                <li class="navigation-item"><a href="">Services and Prices</a></li>
+                <li class="navigation-item"><a href="">Barbers</a></li>
+                <li class="navigation-item"><a href="">Contacts</a></li>
             </ul>
         </nav>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">ONLINE-BOOKING</button>
+        <a href="tel:+380441111111" class="tel">+38 044 111 11 11</a>
+        <button type="button" class="booking">ONLINE-BOOKING</button>
     </header>
-    <section>
-        <ul>
-            <li><a href="" target="_blank" rel="noopener noreferrer nofollow"
+    <section class="socials">
+        <ul class="social-link">
+            <li><a href="" target="_blank" rel="noopener noreferrer nofollow" class="social-link-item"
                 >Youtube</a>
             </li>
-            <li><a href="" target="_blank" rel="noopener noreferrer nofollow"
+            <li><a href="" target="_blank" rel="noopener noreferrer nofollow" class="social-link-item"
                 >Instagram</a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="./img/Rectangle4.jpg" alt="dividing line">
-                </a>
             </li>
         </ul>
     <section>
@@ -68,51 +66,42 @@
     </section>
     <section>
         <div>
-            <img src="./img/Rectangle5.jpg" alt="dividing line" width="1">
             <p>Spend your time with the best masters</p>
             <h2>Services and prices</h2>
         </div>
         <ul>
             <li>
                 <h3>Men's haircut</h3>
-                <img src="./img/Rectangle6.jpg" alt="dividing line">
                 <p>from 300 uah.</p>
             </li>
             <li>
                 <h3>Beard trim</h3>
-                <img src="./img/Rectangle6.jpg" alt="dividing line">
                 <p>from 300 uah.</p>
             </li>
             <li>
                 <h3>Mustache trim</h3>
-                <img src="./img/Rectangle6.jpg" alt="dividing line">
                 <p>from 200 uah.</p>
             </li>
             <li>
                 <h3>Straight razor shave</h3>
-                <img src="./img/Rectangle6.jpg" alt="dividing line">
                 <p>from 200 uah.</p>
             </li>
         </ul>
         <ul>
             <li>
                 <h3>Trainee's haircut</h3>
-                <img src="./img/Rectangle6.jpg" alt="dividing line">
                 <p>from 50 uah.</p>
             </li>
             <li>
                 <h3>Haircut under the nozzle</h3>
-                <img src="./img/Rectangle6.jpg" alt="dividing line">
                 <p>from 200 uah.</p>
             </li>
             <li>
                 <h3>Children's haircut (0-12) y.o.</h3>
-                <img src="./img/Rectangle6.jpg" alt="dividing line">
                 <p>from 300 uah.</p>
             </li>
             <li>
-                <h3>Camouflage of grey hair</h3>
-                <img src="./img/Rectangle6.jpg" alt="dividing line">
+                <h3>Camouflage of grey hair</h3>>
                 <p>from 200 uah.</p>
             </li>
         </ul>
@@ -122,7 +111,6 @@
     </section>
     <section>
         <div>
-            <img src="./img/Rectangle5.jpg" alt="dividing line">
             <p>Old traditional school</p>
             <h2>¿Why people come to us?</h2>
             <p>Only good things are said about us. 
@@ -154,46 +142,75 @@
         <h2>Our barbers</h2>
         <ul>
             <li>
-                <img src="" >
-                <h3>John Smitn</h3>
+                <img 
+                    src="./img/tunnel_ear_man.jpg" 
+                    alt="man in shirt with tunnels" 
+                    width="370">
+                <h3>John Smith</h3>
                 <p>Extreme Barber</p>
                 <ul>
                     <li><a href="www.instagram.com" aria-label="Instagram">Instagram</a></li>
-                    <li><a href="" aria-label="Twitter">Instagram</a></li>
+                    <li><a href="" aria-label="Twitter">Twitter</a></li>
                     <li><a href="www.facebook.com" aria-label="Facebook">Facebook</a></li>
-                    <li><a href="" aria-label="">Instagram</a></li>
+                    <li><a href="" aria-label="">linkedIn</a></li>
                 </ul>
             </li>
             <li>
-                <img src="" >
-                <h3></h3>
-                <p></p>
+                <img 
+                    src="./img/smiling_barber.jpg" 
+                    alt="smiling barber" 
+                    width="370" >
+                <h3>Michele Doe</h3>
+                <p>Extreme Barber</p>
                 <ul>
                     <li><a href="">Instagram</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">linkedIn</a></li>
                 </ul>
             </li>
             <li>
-                <img src="" >
-                <h3></h3>
-                <p></p>
+                <img 
+                    src="./img/man_in_hat.jpg" 
+                    alt="barber in beanie hat" 
+                    width="370" >
+                <h3>Alan Black</h3>
+                <p>Extreme Barber</p>
                 <ul>
                     <li><a href="">Instagram</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">linkedIn</a></li>
                 </ul>
             </li>
         </ul>
     </section>
-    <section></section>
-    <section></section>
+    <section>
+        <h2>In Latin, "Barba" Means "Beard"</h2>
+        <ul>
+            <li>
+                <img src="./img/machine_cut.jpg" alt="man with haircut machine" width="270">
+            </li>
+            <li>
+                <img src="./img/lay_chair.jpg" alt="client laying in chair" width="270">
+            </li>
+            <li>
+                <img src="./img/cover_face.jpg" alt="cap barber and towel on face" width="270">
+            </li>
+            <li>
+                <img src="./img/big_watch.jpg" alt="man with rose tatoo and big watch" width="270">
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h3>Online-booking</h3>
+            <ul>
+                <li></li>
+            </ul>
+    </section>
     </main>
-
     <footer>
-
+        
     </footer>
     
 </body>

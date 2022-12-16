@@ -1,0 +1,51 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.navigation-item a,
+.tel{
+    color: grey;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    text-decoration: none;
+}
+
+
+.social-link-item{
+    color: #303030;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+}
+
+.navigation-item a:hover,
+.navigation-item a:focus,
+.tel:hover,
+.tel:focus {
+    color: #ff6c00;
+}
+
+.social-link-item:hover,
+.social-link-item:focus {
+    color: #ff6c00;
+}
+
+
+/*
+#ff6c00 orange
+#ffffff white
+rgba(157,164,189,0.6) grey
+#9da4bd
+#303030
+#555555
+#f7f7f7
+
+*/
